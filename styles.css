@@ -213,25 +213,51 @@ footer {
 }
 
 @media (max-width: 768px) {
+    header {
+        height: auto;
+        padding: 2rem 1rem;
+    }
+
     header h1 {
         font-size: 2.5rem;
+        margin-top: 5rem;
     }
 
     header p {
-        font-size: 1rem;
+        font-size: 1.2rem;
+        padding: 0 1rem;
+    }
+
+    header img.logo {
+        width: 120px;
+        top: 10px;
+        left: 10px;
+    }
+
+    .contact-button {
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
+        top: 10px;
+        right: 10px;
     }
 
     .intro-photos {
         flex-direction: column;
+        align-items: center;
     }
 
     .intro-photos img {
         width: 90%;
+        margin-bottom: 1rem;
     }
 
     .movies {
         flex-direction: column;
         align-items: center;
+    }
+
+    .movie {
+        width: 90%;
     }
 
     .movie iframe {
@@ -243,7 +269,17 @@ footer {
     }
 
     .social a {
-        display: inline-block;
-        margin: 0.5rem;
+        display: block;
+        margin: 0.5rem auto;
+    }
+
+    .about p {
+        padding: 0 1rem;
+    }
+
+    .collaborations iframe {
+        width: 100%;
+        height: 250px;
     }
 }
+
