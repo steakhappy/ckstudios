@@ -229,10 +229,13 @@ footer {
     }
 
     header img.logo {
-        width: 120px;
+        width: 100px;
+        max-width: 30%;
         top: 10px;
         left: 10px;
     }
+    
+    
 
     .contact-button {
         padding: 0.5rem 1rem;
