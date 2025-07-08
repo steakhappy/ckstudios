@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CK Film & Entertainment</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const scrollButton = document.querySelector("a[href='#movies']");
+            scrollButton.addEventListener("click", function(e) {
+                e.preventDefault();
+                document.querySelector("#movies").scrollIntoView({
+                    behavior: "smooth"
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+
+<header>
+    <img src="ckstudios.jpg" alt="CK Film & Entertainment Logo" class="logo">
+    <h1>CK Film & Entertainment</h1>
+    <p>Telling Stories That Inspire</p>
+    <a href="#movies">View Our Films</a>
+
+    <div class="intro-photos">
+        <img src="photo1.jpg" alt="Behind the Scenes">
+        <img src="photo2.jpg" alt="On Set">
+    </div>
+</header>
+
+<section class="about">
+    <h2>About CK Studios</h2>
+    <p>CK Studios is a dedicated film production company focused on crafting compelling stories through the lens of cinema. From concept to screen, we bring creativity and passion to every project.</p>
+</section>
+
+<section id="movies">
+    <h2>Upcoming Films</h2>
+    <div class="movies">
+        <div class="movie">
+            <h3>The Journey</h3>
+            <iframe src="https://www.youtube.com/embed/YOUR_TRAILER_ID_1" allowfullscreen></iframe>
+            <p>A thrilling adventure that explores the boundaries of courage and destiny.</p>
+            <a href="#" class="learn-more">Learn More</a>
+        </div>
+
+        <div class="movie">
+            <h3>After Hours</h3>
+            <iframe src="https://www.youtube.com/embed/YOUR_TRAILER_ID_2" allowfullscreen></iframe>
+            <p>A gripping drama uncovering the secrets that linger when the city sleeps.</p>
+            <a href="#" class="learn-more">Learn More</a>
+        </div>
+    </div>
+
+    <div class="gallery">
+        <img src="gallery1.jpg" alt="Scene 1">
+        <img src="gallery2.jpg" alt="Scene 2">
+        <img src="gallery3.jpg" alt="Scene 3">
+        <img src="gallery4.jpg" alt="Scene 4">
+    </div>
+</section>
+
+<section class="social">
+    <h2>Follow Us</h2>
+    <a href="https://facebook.com" target="_blank">Facebook</a>
+    <a href="https://instagram.com" target="_blank">Instagram</a>
+    <a href="https://youtube.com" target="_blank">YouTube</a>
+    <a href="https://tiktok.com" target="_blank">TikTok</a>
+</section>
+
+<footer>
+    &copy; 2025 CK Studios. All Rights Reserved.
+</footer>
+
+</body>
+</html>
