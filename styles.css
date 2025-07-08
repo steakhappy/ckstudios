@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background: url('hero-image.jpg') center/cover no-repeat;
+    background: url(headerbg.png) center/cover no-repeat;
     height: 100vh;
     display: flex;
     flex-direction: column;
