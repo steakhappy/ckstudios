@@ -46,6 +46,7 @@ header a {
 
 header a:hover {
     background: #c0392b;
+
 }
 
 section {
@@ -96,6 +97,12 @@ section {
     justify-content: center;
     margin-top: 2rem;
 }
+
+#movies h2 {
+    text-align: center;
+}
+
+
 
 .movie {
     flex: 1 1 400px;
@@ -160,6 +167,25 @@ footer {
     background: #000;
     font-size: 0.9rem;
 }
+
+.collaborations {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.collaborations h2 {
+    margin-bottom: 1rem;
+}
+
+.collaborations p {
+    margin-bottom: 2rem;
+}
+
+.playlist iframe {
+    border-radius: 8px;
+}
+
+
 
 @keyframes fadeIn {
     from { opacity: 0; } to { opacity: 1; }
