@@ -57,6 +57,12 @@ section {
 
 .about {
     text-align: center;
+    background: url('aboutbg.png') center/cover no-repeat;
+    background-attachment: fixed;
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: auto;
+    animation: fadeInUp 1s ease-in;
 }
 
 .about p {
